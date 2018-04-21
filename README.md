@@ -41,7 +41,7 @@ $ nrm use taobao
 
 <img src="images/3.jpg">
 
-<br><br>
+<br>
 
 <img src="images/4.jpg">
 
@@ -67,9 +67,11 @@ $ git pull
 # 安装依赖包
 $ npm install
 
-$ 启动项目
+# 启动项目
 $ npm start
 
-$ 停止项目
+# 停止项目
 $ npm run stop
 ```
+
+访问：https://admin.liruan.cn/articles 。
