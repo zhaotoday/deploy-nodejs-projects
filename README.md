@@ -10,7 +10,7 @@ CentOS 6.x / 7.x。
 $ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
 ```
 
-## 3. 安装宝塔套件
+## 3. 安装套件
 
 <img src="images/1.jpg">
 
@@ -34,3 +34,42 @@ $ nrm use taobao
 ```
 
 ## 6. 新建网站
+
+<img src="images/2.jpg">
+
+## 7. 配置 SSL 证书
+
+<img src="images/3.jpg">
+
+<br><br>
+
+<img src="images/4.jpg">
+
+## 8. 配置反向代理
+
+<img src="images/5.jpg">
+
+## 9. 发布
+
+```bash
+# 进入项目目录
+$ cd /www/wwwroot/admin.liruan.cn
+
+# 下载代码
+$ git clone https://github.com/zhaotoday/koa-mvc-framework.git
+
+# 进入 Node 项目目录
+$ cd koa-mvc-framework
+
+# 更新代码
+$ git pull
+
+# 安装依赖包
+$ npm install
+
+$ 启动项目
+$ npm start
+
+$ 停止项目
+$ npm run stop
+```
