@@ -12,6 +12,8 @@ $ yum install -y wget && wget -O install.sh http://download.bt.cn/install/instal
 
 ## 3. 安装宝塔套件
 
+<img src="images/1.jpg">
+
 ## 4. 安装 PM2 管理器
 
 PM2 是 Node 进程管理工具，可以利用它来简化很多 Node 应用管理的繁琐任务，如性能监控、自动重启、负载均衡等。[链接](http://imweb.io/topic/57c8cbb27f226f687b365636)
@@ -21,7 +23,7 @@ PM2 是 Node 进程管理工具，可以利用它来简化很多 Node 应用管�
 
 ## 5. 安装 nrm
 
-nrm 是一款 npm registry 的管理工具。[链接](https://cnodejs.org/topic/5326e78c434e04172c006826)
+nrm 是 npm registry 的管理工具。[链接](https://cnodejs.org/topic/5326e78c434e04172c006826)
 
 ```bash
 # 安装
